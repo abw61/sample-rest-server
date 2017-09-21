@@ -9,7 +9,7 @@ pipeline {
 	environment {
 		SONAR = credentials('sonar')
 		DOCKERHUB = credentials('dockerhub')
-		IMAGE_NAME = "schottsfired/sample-rest-server"
+		IMAGE_NAME = "abw61/sample-rest-server"
 		IMAGE_VERSION = "latest"
 		DOCKER_NETWORK = "cjt-network"
 	}
